@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".hist">
+
+    <TextView
+        android:id="@+id/txthist"
+        android:layout_width="404dp"
+        android:layout_height="423dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="3dp"
+        android:text='@string/o_jogo_se_trata_de_uma_hist_ria_vaga_e_enigm_tica_te_dando_poucos_elementos_para_estabelecer_uma_hist_ria_que_fa_a_sentido_deixando_muito_espa_o_para_seus_jogadores_estipularem_e_criarem_suas_teorias_em_rela_o_aos_acontecimentos_do_jogo_mas_a_base_se_trata_de_uma_garotinha_chamada_six_que_acorda_num_navio_onde_tudo_em_sua_volta_enorme_em_rela_o_a_ela_com_monstros_enormes_e_poderosos_cada_um_com_suas_peculiaridades_onde_ao_longo_de_sua_jornada_ela_tem_crises_de_fome_que_a_fazem_quase_morrer_mas_precisa_sair_desse_lugar_o_mais_r_pido_poss_vel'
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        tools:ignore="MissingConstraints,TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/txthist1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="73dp"
+        android:layout_marginEnd="119dp"
+        android:layout_marginBottom="64dp"
+        android:text="@string/hist_ria"
+        android:textColor="#039BE5"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/txthist"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="112dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="28dp"
+        android:contentDescription="icon"
+        app:layout_constraintBottom_toTopOf="@+id/txthist"
+        app:layout_constraintEnd_toStartOf="@+id/txthist1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sx"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
